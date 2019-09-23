@@ -10,10 +10,10 @@
     </head>
 
     <body>
-        <div class="container">
+        <div class="container" id="main-container">
             <div id="oath-div">
                 <h2>Designer's Oath</h2>
-                <p>I swear to fulfill, to the best of my ability and judgment, this covenant: I will <a href="#">respect</a> the hard-won knowledge of the human condition of those designers in whose steps I walk, and gladly share such empathetic decisions as are mine with those who are to follow.</p>
+                <p>I swear to fulfill, to the best of my ability and judgment, this covenant: I will <a href="#" onclick="popover('respect');">respect</a> the hard-won knowledge of the human condition of those designers in whose steps I walk, and gladly share such empathetic decisions as are mine with those who are to follow.</p>
                 <p>I will apply, for the benefit of all people and their dignity, all measures that are human-centered and holistic avoiding those twin traps of behavioral manipulation and pure profitability.</p>
             </div>
         </div>
@@ -22,5 +22,13 @@
             <p>Made by Jonathan Bell</p>
             <a href="#">Credit</a>
         </div>
+
+        <div id="popover">
+            <div id="popoverClose" onclick="closePopover();">X</div>
+            <h3 id="popoverTitle">Title</h3>
+            <p id="popoverText">Info</p>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
