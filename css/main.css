@@ -57,6 +57,7 @@ html, body {
 
 #popover p, #popover h3 {
     margin-left: 12.5vw;
+    margin-right: 12.5vw;
 }
 
 #popover h3 {
